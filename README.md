@@ -12,8 +12,7 @@ N'oublier pas votre nom, prénom et l'URL de publication Netlify...
 
 Compléter le fichier [accordeon.css](/src/css/components/accordeon.css) et visualiser l'effet sur [index.html](/index.html) .
 
-Vous devez obtenir :\
-https://moodle.univ-fcomte.fr/draftfile.php/60882/user/draft/813910702/accordeon.mp4
+Vous devez obtenir comme la premiére video sur Moodle.
 
 # Manuellement sans JS
 
@@ -34,6 +33,6 @@ accordeon.querySelectorAll("details").forEach((det) => (det.open = false));
 
 # Version avec [triangle CSS](https://css-tricks.com/snippets/css/css-triangle/)
 
-https://moodle.univ-fcomte.fr/draftfile.php/60882/user/draft/813910702/accordeon-vertical.mp4
+Voir seconde video sur Moodle.
 
 **Faire plusieurs commits** pour chaque étape du CSS
