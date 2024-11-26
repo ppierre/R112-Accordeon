@@ -10,6 +10,18 @@ N'oublier pas votre nom, prénom et l'URL de publication Netlify...
 
 **Faire plusieurs commits** pour chaque étape du CSS
 
+Pour styler l'accordéon ouvert, utilisez l'attribut `open` (entre crochet en CSS `[open]` :
+
+```css
+details {
+  /* fermé et ouvert */
+}
+
+details[open] {
+  /* ouvert */
+}
+```
+
 Compléter le fichier [accordeon.css](/src/css/components/accordeon.css) et visualiser l'effet sur [index.html](/index.html) .
 
 Vous devez obtenir comme la premiére video sur Moodle.
