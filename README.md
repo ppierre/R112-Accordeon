@@ -47,4 +47,16 @@ accordeon.querySelectorAll("details").forEach((det) => (det.open = false));
 
 Voir seconde video sur Moodle.
 
+Pour supprimer le triangle "d'origine" :
+
+```css
+.accordeon > details > summary {
+  list-style: none;
+}
+.accordeon > details > summary::marker,
+.accordeon > details > summary::-webkit-details-marker {
+  display: none;
+}
+```
+
 **Faire plusieurs commits** pour chaque étape du CSS
